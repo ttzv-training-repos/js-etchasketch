@@ -1,0 +1,14 @@
+:root{
+    --size: 768px;
+}
+
+
+.container{
+    border: 1px solid red;
+    width: var(--size);
+    height: var(--size);
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
